@@ -6,17 +6,17 @@ const MsgLabel = (props) => {
   return (
     <div className="msg-label-wrapper">
       <div className="msg-label-img-wrapper">
-        <img src={require('../../assets/img/gold.png')} alt="金币"/>
+        <img src={require('../../assets/img/' + props.iconSrc + '.png')} alt="金币"/>
       </div>
       <span className="msg-label-count">
-          999w
+        {props.count}
         </span>
     </div>
   );
 };
 
 MsgLabel.propTypes = {
-  icon: PropTypes.string,
+  iconSrc: PropTypes.string,
   count: PropTypes.string
 };
 

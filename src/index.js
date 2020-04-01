@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import './assets/styles/reset.css';
 import './assets/styles/border.css';
 import './assets/iconfont/iconfont.css';
-
+import './style.less';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App/>, document.getElementById('root'));

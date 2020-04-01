@@ -8,11 +8,11 @@ const IconBtn = (props) => {
     <div className='iconBtn-wrapper'>
       <div className='img-circle-wrapper'>
         <div className="img-circle">
-          <span className="iconfont img-icon-item">&#xe63f;</span>
+          <span className="iconfont img-icon-item">{props.imgSrc}</span>
         </div>
       </div>
       <div className="img-title">
-        <span className="img-title-item">分享</span>
+        <span className="img-title-item">{props.imgTitle}</span>
       </div>
     </div>
   );
