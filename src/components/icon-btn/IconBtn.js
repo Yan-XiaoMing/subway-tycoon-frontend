@@ -5,10 +5,10 @@ import './style.less';
 
 const IconBtn = (props) => {
   return (
-    <div className='wrapper'>
+    <div className='iconBtn-wrapper'>
       <div className='img-circle-wrapper'>
         <div className="img-circle">
-          <span className="iconfont iconItem">&#xe63f;</span>
+          <span className="iconfont img-icon-item">&#xe63f;</span>
         </div>
       </div>
       <div className="img-title">
