@@ -8,7 +8,14 @@ const IconBtn = (props) => {
     <div className='iconBtn-wrapper'>
       <div className='img-circle-wrapper'>
         <div className="img-circle">
-          <span className="iconfont img-icon-item">{props.imgSrc}</span>
+          {props.svgHref != null && (
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref={props.svgHref}/>
+            </svg>
+          )}
+          {(props.svgHref == null || false) && (
+            <span className="iconfont img-icon-item">{props.imgSrc}</span>
+          )}
         </div>
       </div>
       <div className="img-title">
@@ -19,6 +26,7 @@ const IconBtn = (props) => {
 };
 IconBtn.propTypes = {
   imgSrc: PropTypes.string,
-  imgTitle: PropTypes.string
+  imgTitle: PropTypes.string,
+  svgHref: PropTypes.string
 };
 export default IconBtn;
