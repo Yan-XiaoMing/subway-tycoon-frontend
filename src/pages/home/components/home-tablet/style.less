@@ -1,0 +1,94 @@
+
+.tablet-container {
+  position: absolute;
+  right: 1.6rem;
+  top: 1.3rem;
+  width: 3.4rem;
+  height: 1.8rem;
+  border: 6px solid #3E3E3E;
+  border-radius: .15rem;
+  padding: .05rem;
+
+  .tablet-wrapper {
+    position: relative;
+    color: white;
+    background: #4cd137;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    font-family: '幼圆', serif;
+    font-size: .7rem;
+    line-height: 1.4rem;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+    .tablet-text {
+      display: block;
+      position: relative;
+    }
+
+    .tablet-text::before {
+      position: absolute;
+      content: '';
+      background: white;
+      height: .1rem;
+      width: .5rem;
+      border-radius: .2rem;
+      bottom: .05rem;
+      left: .45rem;
+    }
+
+    .tablet-text::after {
+      position: absolute;
+      content: '';
+      background: white;
+      height: .1rem;
+      width: .5rem;
+      border-radius: .2rem;
+      bottom: .05rem;
+      right: .52rem;
+    }
+  }
+
+  .tablet-wrapper::before {
+    content: '';
+    position: absolute;
+    background: white;
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    top: -0.1rem;
+    left: 0.62rem;
+  }
+
+  .tablet-wrapper::after {
+    content: '';
+    position: absolute;
+    background: white;
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    top: -0.1rem;
+    right: 0.64rem;
+  }
+}
+
+.tablet-container::before {
+  position: fixed;
+  content: '';
+  background: #3E3E3E;
+  top: 0;
+  right: 4rem;
+  height: 1.31rem;
+  width: .2rem;
+}
+
+.tablet-container::after {
+  position: fixed;
+  content: '';
+  background: #3E3E3E;
+  top: 0;
+  right: 2.41rem;
+  height: 1.31rem;
+  width: .2rem;
+}

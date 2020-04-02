@@ -1,6 +1,6 @@
 import React from 'react';
-import {msgLabel} from '../../api/config';
-import MsgLabel from '../../components/msg-label/MsgLabel';
+import {msgLabel} from '../../../api/config';
+import MsgLabel from '../../../components/msg-label/MsgLabel';
 
 const TopLabel = () => {
   return (

@@ -1,5 +1,5 @@
-import {rightIconsBtn} from '../../api/config';
-import IconBtn from '../../components/icon-btn/IconBtn';
+import {rightIconsBtn} from '../../../api/config';
+import IconBtn from '../../../components/icon-btn/IconBtn';
 import React from 'react';
 
 const RightIcons = () => {
