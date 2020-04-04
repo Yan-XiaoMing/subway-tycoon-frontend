@@ -6,6 +6,20 @@
   "description": "learn of Travel imooc",
   "glyphs": [
     {
+      "icon_id": "1711788",
+      "name": "杭州地铁",
+      "font_class": "hangzhouditie",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "6486525",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
       "icon_id": "1242734",
       "name": "爱心",
       "font_class": "019",
