@@ -39,3 +39,16 @@ export const rightIconsBtn = [
     imgTitle: '卡牌屋'
   }
 ];
+export const newCardList = {
+  station: '凤起路',
+  background: 'card_bg01',
+  main: [{
+    title: '附近景点',
+    children: [{list: '西湖风景区'}]
+  },
+    {
+      title: '附近店铺',
+      children: [{list: '新白鹿餐厅'}, {list: 'iPhone专卖店'}]
+    }
+  ]
+};

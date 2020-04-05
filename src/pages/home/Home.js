@@ -6,6 +6,7 @@ import LeftIcons from './components/LeftIcons';
 import RightIcons from './components/RightIcons';
 import HomeTablet from './components/home-tablet/HomeTablet';
 import NewCard from '../../components/new-card/NewCard';
+import {newCardList} from '../../api/config';
 
 class Home extends Component {
   state = {
@@ -13,17 +14,27 @@ class Home extends Component {
   };
 
   showCard = (cardId) => {
-
+    this.setState({
+      cardVisible: cardId
+    });
   };
+  hideCard = () => {
+    if (this.state.cardVisible) {
+      this.setState({
+        cardVisible: 0
+      });
+    }
+  };
+
 
   render() {
     return (
-      <div className="home-container">
+      <div className="home-container" onClick={this.hideCard}>
         <TopLabel/>
         <LeftIcons/>
         <RightIcons showCard={this.showCard}/>
-        <HomeTablet/>
-        <NewCard/>
+        <HomeTablet showCard={this.showCard}/>
+        {this.state.cardVisible === 1 && (<NewCard newCardList={newCardList}/>)}
       </div>
     );
   }

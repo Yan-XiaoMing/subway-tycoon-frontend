@@ -38,7 +38,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     .new-card-title {
       margin-left: 13%;
@@ -65,5 +65,25 @@
       }
     }
 
+    .new-card-main {
+      display: flex;
+      color: #2f3640;
+      margin-left: 23%;
+      font-size: .36rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+
+      .new-card-main-text {
+        margin-left: 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        > span {
+          display: block;
+          margin-bottom: 8px;
+        }
+      }
+    }
   }
 }
