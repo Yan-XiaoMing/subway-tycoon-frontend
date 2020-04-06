@@ -6,6 +6,41 @@
   "description": "learn of Travel imooc",
   "glyphs": [
     {
+      "icon_id": "3401997",
+      "name": "亚军",
+      "font_class": "yajun",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "3402022",
+      "name": "冠军",
+      "font_class": "guanjun",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "3402049",
+      "name": "季军",
+      "font_class": "jijun",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "3872055",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "3900173",
+      "name": "奖杯",
+      "font_class": "jiangbei",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
       "icon_id": "1711788",
       "name": "杭州地铁",
       "font_class": "hangzhouditie",

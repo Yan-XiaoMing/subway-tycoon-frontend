@@ -5,7 +5,7 @@ import './style.less';
 
 const IconBtn = (props) => {
   return (
-    <div className='iconBtn-wrapper'>
+    <div className='iconBtn-wrapper' onClick={() => props.showContainer(props.index)}>
       <div className='img-circle-wrapper'>
         <div className="img-circle">
           {props.svgHref != null && (

@@ -52,3 +52,17 @@ export const newCardList = {
     }
   ]
 };
+export const cityCardList = [
+  {
+    city: '杭州',
+    background: 'cityCard_01'
+  },
+  {
+    city: '南京',
+    background: 'cityCard_02'
+  },
+  {
+    city: '上海',
+    background: 'cityCard_03'
+  }
+];
