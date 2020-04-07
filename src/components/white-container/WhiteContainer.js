@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CityCard from '../city-card/CityCard';
 import {cityCardList} from '../../api/config';
 import PropTypes from 'prop-types';
+import CityDetail from '../city-detail/CityDetail';
 import './style.less';
 
 class WhiteContainer extends Component {
@@ -11,11 +12,17 @@ class WhiteContainer extends Component {
   };
 
   render() {
+    var icon;
+    if (this.props.showNum === 2) {
+      icon = '#iconjiangbei';
+    } else {
+      icon = '#iconshoucang';
+    }
     return (
       <div className="white-container">
         {(this.props.showNum === 2 || this.props.showNum === 4) && (<div className="white-container-icon">
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#iconjiangbei"/>
+            <use xlinkHref={icon}/>
           </svg>
         </div>)}
         {this.props.showNum === 1 && (<div className="white-container-city-card">
@@ -25,9 +32,8 @@ class WhiteContainer extends Component {
             })
           }
         </div>)
-
         }
-
+        {/*<CityDetail/>*/}
       </div>
     );
   }

@@ -1,0 +1,101 @@
+.city-detail-wrapper {
+  .city-detail-back {
+    color: white;
+    font-size: .45rem;
+    box-sizing: border-box;
+    padding-right: .4rem;
+    margin-top: .5rem;
+    height: .65rem;
+    line-height: .65rem;
+    text-align: right;
+    width: 1.3rem;
+    border-radius: 0 .3rem .3rem 0;
+    background: #e74c3c;
+  }
+
+  .city-detail-main {
+    font-size: .4rem;
+    margin-top: .2rem;
+
+    .city-detail-main-text {
+      margin: .3rem .3rem;
+      text-indent: .8rem;
+      line-height: .7rem;
+      font-family: '微软雅黑 Light', serif;
+      font-weight: bold;
+    }
+  }
+
+  .city-detail-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 26%;
+    border-top: 5px solid salmon;
+
+    .city-detail-footer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .1rem .45rem 0;
+
+      .city-detail-footer-logo {
+        width: 1.3rem;
+        height: 1.3rem;
+
+        .city-detail-logo {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .city-detail-footer-devote {
+        width: 1.6rem;
+        height: .7rem;
+        line-height: .7rem;
+        background: #f1c40f;
+        border-radius: .5rem;
+
+        .footer-devote-item {
+          text-align: right;
+          display: block;
+          width: 65%;
+          margin: auto;
+          font-size: .32rem;
+          letter-spacing: .1rem;
+        }
+      }
+    }
+
+    .city-detail-footer-label {
+      text-align: center;
+      letter-spacing: .1rem;
+      margin-bottom: .2rem;
+    }
+
+    .city-detail-footer-progress {
+      position: relative;
+      width: 80%;
+      height: .68rem;
+      line-height: 0.68rem;
+      margin: 0 auto;
+      background: orangered;
+      color: #3E3E3E;
+      text-align: center;
+      font-size: .35rem;
+      letter-spacing: .1rem;
+      font-family: "Hannotate SC", fantasy;
+      border-radius: .45rem;
+      z-index: -1;
+
+      .progress-item-bg {
+        position: absolute;
+        height: 100%;
+        background: salmon;
+        border-radius: .45rem;
+        top: 0;
+        z-index: -1;
+      }
+    }
+  }
+}

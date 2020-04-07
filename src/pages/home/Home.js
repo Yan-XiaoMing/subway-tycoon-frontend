@@ -8,7 +8,7 @@ import HomeTablet from './components/home-tablet/HomeTablet';
 import NewCard from '../../components/new-card/NewCard';
 import {newCardList} from '../../api/config';
 import WhiteContainer from '../../components/white-container/WhiteContainer';
-
+import './animation.less';
 
 class Home extends Component {
   state = {
