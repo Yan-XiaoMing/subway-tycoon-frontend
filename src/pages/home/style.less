@@ -26,16 +26,38 @@
     position: absolute;
     top: 2.65rem;
     left: .3rem;
-
+    z-index: 1;
   }
 
   .home-right-icon-btn-wrapper {
     position: absolute;
     top: .5rem;
     right: .2rem;
+    z-index: 1;
+
 
     .home-right-icon-btn {
       margin-bottom: .5rem;
+    }
+  }
+
+  .home-bg-container {
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    bottom: 0;
+
+    .home-bg {
+      z-index: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }

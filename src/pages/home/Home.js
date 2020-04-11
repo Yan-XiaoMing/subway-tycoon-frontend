@@ -50,6 +50,13 @@ class Home extends Component {
           <LeftIcons/>
           <RightIcons showContainer={this.showContainer}/>
           <HomeTablet showCard={this.showCard}/>
+
+          <div className='home-bg-container'>
+            <div className='home-bg'>
+              <img src={require('../../assets/img/HomeCity.png')} alt="bg"/>
+            </div>
+          </div>
+
         </div>
         {state.cardVisible === 1 && state.whiteContainer === 0 && (<NewCard newCardList={newCardList}/>)}
         {state.whiteContainer > 0 && <WhiteContainer showNum={state.whiteContainer}/>}
