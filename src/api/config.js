@@ -66,3 +66,132 @@ export const cityCardList = [
     background: 'cityCard_03'
   }
 ];
+
+export const rankListMock = [
+    {
+      type:'friend',
+      title:"好友",
+      list:[
+        {
+          num:1,
+          rankIcon:'#iconguanjun',
+          icon:'#iconicon-test4',
+          name: "王瑶桦",
+          collect:80
+        },
+        {
+          num:2,
+          rankIcon:'#iconyajun',
+          icon:'#iconicon-test1',
+          name: "徐大佬",
+          collect:78
+        },
+        {
+          num:3,
+          rankIcon:'#iconjijun',
+          icon:'#iconicon-test3',
+          name: "范老板",
+          collect:73
+        },
+        {
+          num:4,
+          icon:'#iconicon-test5',
+          name: "森蓝",
+          collect:68
+        },
+        {
+          num:5,
+          icon:'#iconicon-test6',
+          name: "小铭",
+          collect:65
+        },
+        {
+          num:6,
+          icon:'#iconicon-test2',
+          name: "可口不可乐",
+          collect:60
+        },
+        {
+          num:7,
+          icon:'#iconicon-test8',
+          name: "奥利gay",
+          collect:50
+        },
+        {
+          num:8,
+          icon:'#iconicon-test5',
+          name: "祖安人",
+          collect:42
+        },
+        {
+          num:9,
+          icon:'#iconicon-test6',
+          name: "慢清尘",
+          collect:35
+        }
+      ]
+    },
+  {
+    type:'city',
+    title:"城市",
+    list:[
+      {
+        num:1,
+        rankIcon:'#iconguanjun',
+        icon:'#iconhangzhouditie',
+        name: "杭州",
+        collect:8848
+      },
+      {
+        num:2,
+        rankIcon:'#iconyajun',
+        icon:'#iconnanjingditie',
+        name: "南京",
+        collect:8667
+      },
+      {
+        num:3,
+        rankIcon:'#iconjijun',
+        icon:'#iconshanghaiditie',
+        name: "上海",
+        collect:8452
+      },
+      {
+        num:4,
+        icon:'#iconBeijing_Subway_icon',
+        name: "北京",
+        collect:8005
+      },
+      {
+        num:5,
+        icon:'#iconguangzhouditie',
+        name: "广州",
+        collect:7950
+      },
+      {
+        num:6,
+        icon:'#iconShenyang_Metro_Corporation_Logo',
+        name: "沈阳",
+        collect:7840
+      },
+      {
+        num:7,
+        icon:'#iconWuhan_Metro_Logo',
+        name: "武汉",
+        collect:7560
+      },
+      {
+        num:8,
+        icon:'#iconnanchangditie',
+        name: "南昌",
+        collect:7120
+      },
+      {
+        num:9,
+        icon:'#iconQingdao_Metro_Logo_without_text',
+        name: "青岛",
+        collect:6800
+      }
+    ]
+  }
+];

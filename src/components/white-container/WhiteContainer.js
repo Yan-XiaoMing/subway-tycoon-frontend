@@ -3,12 +3,21 @@ import CityCard from '../city-card/CityCard';
 import {cityCardList} from '../../api/config';
 import PropTypes from 'prop-types';
 import CityDetail from '../city-detail/CityDetail';
+import RankList from '../rank-list/RankList';
 import './style.less';
 
 class WhiteContainer extends Component {
 
   state = {
-    refreshScroll: false
+    refreshScroll: false,
+    cityCard:0
+  };
+
+
+  showCityCard = (index) => {
+    this.setState({
+      cityCard:index
+    });
   };
 
   render() {
@@ -25,14 +34,15 @@ class WhiteContainer extends Component {
             <use xlinkHref={icon}/>
           </svg>
         </div>)}
-        {this.props.showNum === 1 && (<div className="white-container-city-card">
+        {(this.props.showNum === 1 && this.state.cityCard===0) && (<div className="white-container-city-card">
           {
             cityCardList.map((item, index) => {
-              return <CityCard city={item} key={'0' + index}/>;
+              return <CityCard city={item} key={'0' + index} showCityCard={this.showCityCard} index={index}/>;
             })
           }
         </div>)
         }
+        {this.props.showNum===2&&(<RankList/>)}
         {/*<CityDetail/>*/}
       </div>
     );
