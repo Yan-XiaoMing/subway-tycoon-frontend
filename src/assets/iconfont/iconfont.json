@@ -6,6 +6,111 @@
   "description": "learn of Travel imooc",
   "glyphs": [
     {
+      "icon_id": "1711575",
+      "name": "武汉地铁",
+      "font_class": "Wuhan_Metro_Logo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1711577",
+      "name": "大连地铁",
+      "font_class": "Dalian_Metro_Logo_Image_Only",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "1711581",
+      "name": "北京地铁",
+      "font_class": "Beijing_Subway_icon",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1711642",
+      "name": "沈阳地铁",
+      "font_class": "Shenyang_Metro_Corporation_Logo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1711677",
+      "name": "青岛地铁",
+      "font_class": "Qingdao_Metro_Logo_without_text",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1711678",
+      "name": "福州地铁",
+      "font_class": "Fuzhou_Metro_logo",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1711701",
+      "name": "南昌地铁",
+      "font_class": "nanchangditie",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "3350986",
+      "name": "京港地铁",
+      "font_class": "BeijingMTRicon",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "3351762",
+      "name": "厦门地铁",
+      "font_class": "Amoy_Metro_logo",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "4656459",
+      "name": "济南地铁",
+      "font_class": "JinanMetro",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "5910506",
+      "name": "广州地铁",
+      "font_class": "guangzhouditie",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5910514",
+      "name": "南京地铁",
+      "font_class": "nanjingditie",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "5910517",
+      "name": "上海地铁",
+      "font_class": "shanghaiditie",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5910518",
+      "name": "合肥地铁",
+      "font_class": "hefeiditie",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5910535",
+      "name": "长沙地铁",
+      "font_class": "changshaditie",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
       "icon_id": "1903287",
       "name": "头像 女孩",
       "font_class": "icon-test1",
