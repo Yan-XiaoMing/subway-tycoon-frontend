@@ -4,6 +4,7 @@ import {cityCardList} from '../../api/config';
 import PropTypes from 'prop-types';
 import CityDetail from '../city-detail/CityDetail';
 import RankList from '../rank-list/RankList';
+import TaskHouse from '../task-house/TaskHouse';
 import './style.less';
 
 class WhiteContainer extends Component {
@@ -64,6 +65,7 @@ class WhiteContainer extends Component {
         </div>)
         }
         {this.props.showNum === 2 && (<RankList type={this.state.rankListType} changeType={this.changeRankListType}/>)}
+        {this.props.showNum === 3 && (<TaskHouse/>)}
         {/*<CityDetail/>*/}
       </div>
     );

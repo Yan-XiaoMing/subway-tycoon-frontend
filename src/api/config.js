@@ -8,6 +8,7 @@ export const msgLabel = [
     count: '112.5w'
   }
 ];
+
 export const leftIconsBtn = [
   {
     imgSrc: '\ue70a',
@@ -22,6 +23,7 @@ export const leftIconsBtn = [
     imgTitle: '好友'
   }
 ];
+
 export const rightIconsBtn = [
   {
     svgHref: '#icon019',
@@ -39,6 +41,7 @@ export const rightIconsBtn = [
     imgTitle: '卡牌屋'
   }
 ];
+
 export const newCardList = {
   station: '凤起路',
   background: 'card_bg01',
@@ -52,6 +55,7 @@ export const newCardList = {
     }
   ]
 };
+
 export const cityCardList = [
   {
     city: '杭州',
@@ -187,11 +191,42 @@ export const rankListMock = [
         collect:7120
       },
       {
-        num:9,
-        icon:'#iconQingdao_Metro_Logo_without_text',
-        name: "青岛",
-        collect:6800
+        num: 9,
+        icon: '#iconQingdao_Metro_Logo_without_text',
+        name: '青岛',
+        collect: 6800
       }
     ]
+  }
+];
+
+export const taskCardList = [
+  {
+    icon: 'subway',
+    title: '坐地铁得金币',
+    money: 300,
+    color: '#33C1D0',
+    state: 0 //0未完成,1已完成,2敬请期待
+  },
+  {
+    icon: 'game',
+    title: '玩游戏得金币',
+    money: 300,
+    color: '#8DC540',
+    state: 2 //0未完成,1已完成,2敬请期待
+  },
+  {
+    icon: 'hand-answer',
+    title: '答题得金币',
+    money: 300,
+    color: '#FDD817',
+    state: 0 //0未完成,1已完成,2敬请期待
+  },
+  {
+    icon: 'secret',
+    title: '特殊任务',
+    money: 300,
+    color: '#F26347',
+    state: 0 //0未完成,1已完成,2敬请期待
   }
 ];

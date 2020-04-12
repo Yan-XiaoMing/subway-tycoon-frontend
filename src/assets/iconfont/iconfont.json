@@ -6,6 +6,20 @@
   "description": "learn of Travel imooc",
   "glyphs": [
     {
+      "icon_id": "3727363",
+      "name": "举手回答",
+      "font_class": "jushouhuida",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3905296",
+      "name": "游戏",
+      "font_class": "tubiaozhizuomoban-",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "1711575",
       "name": "武汉地铁",
       "font_class": "Wuhan_Metro_Logo",
