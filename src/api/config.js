@@ -230,3 +230,58 @@ export const taskCardList = [
     state: 0 //0未完成,1已完成,2敬请期待
   }
 ];
+
+export const cardItemList = [
+  {
+    station: '凤起路',
+    background: 'card_bg01',
+    number: 5,
+    main: [{
+      title: '附近景点',
+      children: [{list: '西湖风景区'}]
+    },
+      {
+        title: '附近店铺',
+        children: [{list: '新白鹿餐厅'}, {list: 'iPhone专卖店'}]
+      }
+    ]
+  },
+  {
+    station: '武林广场',
+    background: 'card_bg02',
+    number: 2,
+    main: [{
+      title: '附近景点',
+      children: [{list: '浙江展览馆'}, {list: '武林广场'}]
+    },
+      {
+        title: '附近店铺',
+        children: [{list: '银泰百货'}, {list: '浙江大酒店'}]
+      }
+    ]
+  },
+  {
+    station: '古翠路',
+    background: 'card_bg03',
+    number: 4,
+    main: [{
+      title: '附近医院',
+      children: [{list: '浙江省立同德医院'}]
+    },
+      {
+        title: '附近店铺',
+        children: [{list: '世纪联华超市'}]
+      }
+    ]
+  },
+  {
+    station: '江陵路',
+    background: 'card_bg04',
+    number: 1
+  },
+  {
+    station: '浙大紫金港',
+    background: 'card_bg05',
+    number: 1
+  }
+];

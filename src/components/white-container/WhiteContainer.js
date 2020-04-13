@@ -6,6 +6,7 @@ import CityDetail from '../city-detail/CityDetail';
 import RankList from '../rank-list/RankList';
 import TaskHouse from '../task-house/TaskHouse';
 import './style.less';
+import CardHouse from '../card-house/CardHouse';
 
 class WhiteContainer extends Component {
 
@@ -62,10 +63,10 @@ class WhiteContainer extends Component {
               return <CityCard city={item} key={'0' + index} showCityCard={this.showCityCard} index={index}/>;
             })
           }
-        </div>)
-        }
+        </div>)}
         {this.props.showNum === 2 && (<RankList type={this.state.rankListType} changeType={this.changeRankListType}/>)}
         {this.props.showNum === 3 && (<TaskHouse/>)}
+        {this.props.showNum === 4 && (<CardHouse/>)}
         {/*<CityDetail/>*/}
       </div>
     );

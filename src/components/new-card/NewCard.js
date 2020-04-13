@@ -1,22 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.less';
-import {newCardList} from '../../api/config';
 
 const NewCard = (props) => {
-  const main = newCardList.main;
+  const main = props.newCardList.main;
   return (
     <div className="new-card-container new-card-container-list">
-      <img src={require(`../../assets/img/${newCardList.background}.jpg`)} className="new-card-bg" alt="背景"/>
+      <img src={require(`../../assets/img/${props.newCardList.background}.jpg`)} className="new-card-bg" alt="背景"/>
       <div className="new-card-svg">
-        <img src={require('../../assets/img/new_tag.svg')} alt="new"/>
+        {props.cardVisible !== 0 && (<img src={require('../../assets/img/new_tag.svg')} alt="new"/>)}
       </div>
       <div className="new-card-wrapper">
         <div className="new-card-title">
           <svg className="icon subway-logo" aria-hidden="true">
             <use xlinkHref="#iconhangzhouditie"/>
           </svg>
-          <span className="new-card-title-item">{newCardList.station}</span>
+          <span className="new-card-title-item">{props.newCardList.station}</span>
         </div>
         <div className="new-card-main-wrapper">
           {
@@ -39,8 +38,6 @@ const NewCard = (props) => {
               );
             })
           }
-
-
         </div>
       </div>
     </div>
@@ -49,6 +46,9 @@ const NewCard = (props) => {
 };
 NewCard.propTypes = {
   newCardList: PropTypes.object
+};
+NewCard.defaultProps = {
+  cardVisible: 0
 };
 
 export default NewCard;

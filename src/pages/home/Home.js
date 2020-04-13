@@ -58,7 +58,8 @@ class Home extends Component {
           </div>
 
         </div>
-        {state.cardVisible === 1 && state.whiteContainer === 0 && (<NewCard newCardList={newCardList}/>)}
+        {state.cardVisible === 1 && state.whiteContainer === 0 && (
+          <NewCard cardVisible={this.state.cardVisible} newCardList={newCardList}/>)}
         {state.whiteContainer > 0 && <WhiteContainer showNum={state.whiteContainer}/>}
       </div>
     );
