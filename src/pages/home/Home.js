@@ -50,11 +50,12 @@ class Home extends Component {
           <LeftIcons/>
           <RightIcons showContainer={this.showContainer}/>
           <HomeTablet showCard={this.showCard}/>
-
+          <div className='home-cloud'><img src={require('../../assets/img/cloud.png')}/></div>
           <div className='home-bg-container'>
             <div className='home-bg'>
               <img src={require('../../assets/img/HomeCity.png')} alt="bg"/>
             </div>
+            <div className='home-car'><img src={require('../../assets/img/car3.png')}/></div>
           </div>
 
         </div>

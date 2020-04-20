@@ -47,6 +47,30 @@
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    opacity: 0.9;
+    transform: translate3d(250%, 0, 0);
+  }
+
+  to {
+    opacity: 0.9;
+    transform: translate3d(-250%, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(400%, 0, 0);
+  }
+}
+
 .home-wrapper > .home-container > .home-left-icon-btn-wrapper {
   animation: slideInLeft 1000ms both
 }
@@ -57,4 +81,12 @@
 
 .home-wrapper > .home-container > .tablet-container {
   animation: bounce 1500ms 500ms both
+}
+
+.home-wrapper > .home-container > .home-cloud {
+  animation: fadeInRight 30s linear 5s infinite both
+}
+
+.home-container > .home-bg-container > .home-car {
+  animation: fadeInLeft 20s linear 5s infinite both
 }
